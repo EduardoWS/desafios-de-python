@@ -1,0 +1,17 @@
+print()
+print('=' * 40)
+nome = str(input('Digite seu nome completo: '))
+
+upper = nome.upper()
+lower = nome.lower()
+sem = nome.replace(' ', '')
+sep = nome.split()
+
+print()
+print(upper)
+print(lower)
+print(len(sem))
+print(len(sep[0]))
+print()
+print('=' * 40)
+print()

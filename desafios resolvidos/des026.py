@@ -1,0 +1,15 @@
+print()
+print('=' * 40)
+frase = str(input('Digite uma frase qualquer: ')).lower()
+ 
+a = frase.count('a')
+pa = frase.index('a')
+ua = frase.index('a', -1)
+
+print()
+print(f'Existem {a} letra(s) "a" nessa frase')
+print(f'A posição do primeiro "a" é {pa + 1}')
+print(f'A posição do último "a" é {ua + 1}')
+print()
+print('=' * 40)
+print()

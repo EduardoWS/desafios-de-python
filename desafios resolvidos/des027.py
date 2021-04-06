@@ -1,0 +1,10 @@
+print()
+print('=' * 40)
+nome = str(input('Nome completo: ')).title().split()
+
+print()
+print(f'Primeiro nome: {nome[0]}')
+print(f'Último nome: {nome[-1]}')
+print()
+print('=' * 40)
+print()

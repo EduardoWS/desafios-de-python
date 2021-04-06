@@ -1,0 +1,2 @@
+Crie um programa que leia um número inteiro e mostre
+se é par ou ímpar.

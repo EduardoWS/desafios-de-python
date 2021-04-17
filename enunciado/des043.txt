@@ -1,0 +1,9 @@
+Desenvolva uma lógica que leia o peso e a altura de 
+uma pessoa, calcule seu IMC e mostre seu status, de
+acordo com a tabela:
+
+- Abaixo de 18.5: abaixo do peso
+- Entre 18.5 e 25: peso ideal
+- Entre 25 e 30: sobrepeso
+- Entre 30 e 40: obesidade
+- Acima de 40: obesidade mórbida

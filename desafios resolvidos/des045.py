@@ -1,3 +1,4 @@
+#jokenpo
 import random
 import os
 from time import sleep

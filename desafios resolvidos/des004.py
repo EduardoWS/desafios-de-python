@@ -1,6 +1,7 @@
 print()
 print('=' * 40)
 algo = str(input('Digite algo: '))
+
 print()
 
 print(f'O tipo primitivo desse valor é: {type(algo)}')
@@ -11,5 +12,6 @@ print(f'É alfanumérico? {algo.isalnum()}')
 print(f'Está tudo em maiúsculo? {algo.isupper()}')
 print(f'Está tudo em minúsculo? {algo.islower()}')
 print(f'Está capitalizada? {algo.istitle()}')
+print(f'É algum símbolo? {algo.isascii()}')
 print()
 print('=' * 40)

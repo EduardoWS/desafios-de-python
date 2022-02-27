@@ -14,8 +14,7 @@ print(f'''
 2º {times[1]}
 3º {times[2]}
 4º {times[3]}
-5º {times[4]}
-''')
+5º {times[4]}''')
 
 print()
 
@@ -25,5 +24,13 @@ print(f'''
 19º {times[18]}
 20º {times[19]}
 ''')
+print()
 
+print(f'São Paulo está na posição {times.index("São Paulo")+1}º')
+
+print()
+print()
+
+for cont in range(0, len(times)):
+    print(f'{cont+1}º {sorted(times)[cont]}')
 linha()
